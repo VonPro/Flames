@@ -45,11 +45,8 @@ main(void) {
       }
    }	while (counter < strlen(alphabet));
 
-   char flames[6] = {'f', 'l', 'a', 'm', 'e', 's'};
-   // int flamesCounter = 0, flamesValue;
-
    do {
-   	if (totalAlphaCount > strlen(flames) - 1) {
+   	if (totalAlphaCount > 6) {
       	totalAlphaCount -= 6;
       }
       else {
