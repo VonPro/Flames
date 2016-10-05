@@ -22,10 +22,10 @@ main(void) {
 	char yourName[30], someName[30];
 
    printf("Enter your name: ");
-   scanf("%s", &yourName);
+   scanf("%[^\n]%*c", &yourName);
 
    printf("Enter someone's name: ");
-   scanf("%s", &someName);
+   scanf("%[^\n]%*c", &someName);
 
    // int maxLength = (strlen(yourName) > strlen(someName)) ? strlen(yourName) : strlen(someName);
    int counter = 0;
