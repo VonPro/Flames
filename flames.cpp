@@ -68,7 +68,7 @@ main(void) {
             	printf("Enemy");
                break;
             case 5:
-            	printf("Sex :^)");
+            	printf("Sweet");
                break;
             default:
             	printf("Something went wrong.");
